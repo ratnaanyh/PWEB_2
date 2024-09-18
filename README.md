@@ -14,6 +14,13 @@ NPM    : 230202088
 
 ![Capture](https://github.com/user-attachments/assets/eaeb8642-4777-491a-b65e-7c224f44bb82)
 
+<p>Penjelasan :<br>
+- Membuat kelas dengan nama mahasiswa, class mahasiswa {}<br>
+- Diisi dengan property (atribut) nama, nim, dan jurusan tambahkan visibility public<br>
+- Tambahkan public function cunstrutor($nama parameter) {}<br>
+- Membuat method atau function tampildata(), updatejurusan(), setnim() dengan SETTER<br>
+- Tambahkan instansiasi objek pada kelas mahasiswa dan gunakan function yang telah dibuat untuk menampilkan informasi data.</p>
+
 <h2>B. Prinsip OOP (INHERITANCE)</h2>
 <p>Inheritance (pewarisan) merupakan konsep untuk sebuah kelas agar dapat mewarisi property (atribut) dan method (function) dari kelas lain. Memungkinkan penggunaan kembali kode pemrograman dan dapat menghubungkan antar kelas yang sudah diwarisi. Contoh penerapan INHARITANCE pada kode program OOP : </p>
 
@@ -22,6 +29,15 @@ NPM    : 230202088
 ![Capture](https://github.com/user-attachments/assets/2fb6de6e-01ba-4996-8fef-322b45eef10e)
 
 ![Capture](https://github.com/user-attachments/assets/e7f4f184-9c9f-4548-a2aa-483da949eae3)
+
+<p>Penjelasan :<br>
+- Buat kelas Person sebagai induk kelas untuk mewariskan kepada kelas yang akan diwarisi sifatnya, class Person {}<br>
+- Tambahkan atribut nama dengan visibility protected, protected $nama;<br>
+- Tambahkan public function cunstruct, function setstudentID dan setnama menggunakan SETTER untuk mengubah value, dan method getnama() dengan GETTER<br>
+- Buat kelas Student yang mana mewarisi dari kelas Person dengan menambahkan atribut studentID yang visibilitynya private<br>
+- Instansiasi objek dari kelas Student $student1 = new Student("")<br>
+- Tampilkan informasi data menggunakan method getnama() dan getstudentID()
+</p>
 
 <p>Output dari eksekusi kode program OOP dengan INHERITACE sebagai berikut : </p>
 
@@ -33,6 +49,15 @@ NPM    : 230202088
  ![Capture](https://github.com/user-attachments/assets/cbff7f5b-a687-4f47-b3e5-ee52742826de)
 
  ![Capture](https://github.com/user-attachments/assets/c6ecff21-d8ae-407a-94ac-374aa2c8796b)
+
+
+ <p>Penjelasan :<br>
+ - Membuat kelas Teacher yang mewarisi dari kelas Person. class Teacher extends Person<br>
+ - Tambahkan atribut $teacherID dengan visibility private<br>
+ - Membuat method getnama(), getTeacherID() dengan GETTER untuk mengambil value<br>
+ - Membuat method setnama(), setTeacherID dengan GETTER untuk mengubah value<br>
+ - Instansiasi objek pada kelas Teacher. $teacher1 = new Teacher(" ")<br>
+ - Tampilkan informasi data dengan getnama() dan getteacherID()</p>
 
  <p>Output dari hasil eksekusi kode program OOP dengan POLYMORPHISM sebagai berikut : </p>
 
